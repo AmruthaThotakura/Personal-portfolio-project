@@ -141,10 +141,9 @@ span{
 /*about-page css*/
 
 .about{
+    
     width: 100%;
     
-    background-color: black;
-    color: black;
     display: flex;
     padding: 8%;
     align-items: center;
@@ -158,7 +157,7 @@ span{
 }
 
 .about-content{
-   
+    color: black;
     max-width: 800px;
    
     
