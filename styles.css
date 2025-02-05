@@ -142,8 +142,8 @@ span{
 
 .about{
     
-    width: 100%;
-     background-color: black;
+   
+    background-color: black;
     display: flex;
     padding: 8%;
     align-items: center;
@@ -174,7 +174,7 @@ span{
 
 /* contact form css */
 .contact-form{
-    
+   
     width: 100%;
     text-align: center;
     
@@ -221,7 +221,7 @@ span{
 
 
 footer{
-    
+    padding: 100px 30%;
     width: 100%;
     background-color: black;
     position: relative;
@@ -302,11 +302,20 @@ footer p{
   
 }
 
-@media only screen and (max-width:360px) {
+@media only screen and (max-width:350px) {
     .about{
         
-        width: 100%;
+        
         background-color:black;
+
+    }
+    .contact-form{
+   
+      
+       border: 2px solid red;
+       align-items: center;
+       justify-content: center;
+        
     }
 }
        
