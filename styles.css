@@ -302,10 +302,10 @@ footer p{
   
 }
 
-@media only screen and (min-width:600px) {
+@media only screen and (max-width:600px) {
     .about{
-        border: 2px solid red;
-        min-width: 100%;
+        
+        width:100%;
         background-color:black;
         
        
