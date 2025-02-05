@@ -302,21 +302,43 @@ footer p{
   
 }
 
-@media only screen and (max-width:350px) {
+@media only screen and (max-width:600px) {
     .about{
         
         
         background-color:black;
+        
 
     }
     .contact-form{
-   
-      
-       border: 2px solid red;
-       align-items: center;
-       justify-content: center;
+       
+         
+          width: 100%;
+          margin-left: 200px;
         
+       
     }
+
+    .contact-form h2{
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .input-box{
+        display: flex;
+        align-items:right;
+        justify-content: center;
+        margin-left: 100px;
+
+    }
+    .socail{
+        border: 2px solid red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+   
 }
        
         
