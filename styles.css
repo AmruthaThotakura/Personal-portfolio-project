@@ -302,43 +302,27 @@ footer p{
   
 }
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:500px) {
+    
     .about{
-        
-        
-        background-color:black;
-        
-
+        width: 300%;
+        background-color: black;
     }
-    .contact-form{
-       
+    .about-content{
          
-          width: 100%;
-          margin-left: 200px;
-        
-       
+         color: white;
+         gap: 2rem;
+         
     }
+.contact-form{
+    
+    width: 300%;
+}
 
-    .contact-form h2{
-        
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .input-box{
-        display: flex;
-        align-items:right;
-        justify-content: center;
-        margin-left: 100px;
-
-    }
-    .socail{
-        border: 2px solid red;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+footer{
    
+    width: 300%;
+}
 }
        
         
